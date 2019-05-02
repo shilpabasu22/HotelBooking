@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b67e1a-0d72-4c46-a1df-fa85dfa262a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/paths.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_Booking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_Booking.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/hotelSearchPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/hotelSearchPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/hotel_search.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/browser/HotelSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="100">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -511,8 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="100">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
