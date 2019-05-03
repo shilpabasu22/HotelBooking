@@ -4,10 +4,16 @@ import java.io.File;
 import java.io.IOException;
 import HelperClasses.BasePageHelper;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.Month;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class BasePage extends BasePageHelper {
@@ -32,4 +38,9 @@ public class BasePage extends BasePageHelper {
             e.printStackTrace();
         }
     }
-}
+
+    public static int getMonthNumber(String monthName) {
+        return Month.valueOf(monthName.toUpperCase()).getValue();
+    }
+
+    }
