@@ -1,12 +1,13 @@
 package runners;
 
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
         features = {"classpath:features/"},
         glue = {"steps.browser", "hooks"},
-        tags = {"@CreateBooking", "~@ignore"},
+        tags = {"@DeleteBooking", "~@ignore"},
         plugin = {
 
                 "html:target/cucumber-reports/cucumber-pretty",
@@ -15,7 +16,5 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         },
         strict = true,
         monochrome = true)
-public class CreateBooking extends AbstractTestNGCucumberTests {
-
+public class DeleteBooking extends AbstractTestNGCucumberTests {
 }
-

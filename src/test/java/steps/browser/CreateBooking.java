@@ -1,19 +1,22 @@
 package steps.browser;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.assertj.core.api.SoftAssertions;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 import pageobjects.BasePage;
 import pageobjects.CreateHotelBooking;
 
-import static pageobjects.CreateHotelBooking.checkRecordExists;
-import static pageobjects.CreateHotelBooking.setCheckOut;
 
 public class CreateBooking extends BasePage {
     CreateHotelBooking createHotelBooking = new CreateHotelBooking();
+    SoftAssertions softAssert = null;
 
     @Given("^I am on the Hotel Booking home page$")
     public void iAmOnTheHotelBookingHomePage(){
@@ -72,6 +75,15 @@ public class CreateBooking extends BasePage {
         System.out.println("Record Exists value = "+recordExists);
         Assert.assertTrue(recordExists);
 
+    }
+    @Before
+    public void beforeScenario(){
+        softAssert = new SoftAssertions();
+    }
+    @After
+    public void closeBrowserAfterExecution(){
+        driver.quit();
+        softAssert.assertAll();
     }
 
 

@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:features/CreateBooking.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:features/DeleteBooking.feature");
 formatter.feature({
-  "name": "Create the Hotel Booking For a specific time period",
-  "description": "As a customer I want to create a hotel booking for the holiday",
+  "name": "Delete the Hotel Booking For a customer",
+  "description": "  As a customer I want to Delete a hotel booking",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@CreateBooking"
+      "name": "@DeleteBooking"
     }
   ]
 });
 formatter.scenarioOutline({
-  "name": "I want to create a new Hotel Booking",
+  "name": "I want to delete a new Hotel Booking",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -19,35 +19,15 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "name": "I enter my Firstname as \u003cfirstname\u003e",
+  "name": "I see a booking for \u003cfirstname\u003e",
   "keyword": "When "
 });
 formatter.step({
-  "name": "I enter my Lastname as \u003clastname\u003e",
+  "name": "I click on delete button for \u003cfirstname\u003e",
   "keyword": "And "
 });
 formatter.step({
-  "name": "I enter the price as \u003cprice\u003e",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "I enter the \u003cdeposit\u003e paid",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "I enter the Checkin date as \u003ccheckin\u003e",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "I enter the Checkout date as \u003ccheckout\u003e",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "I click on the save button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "The booking is saved successfully for \u003cfirstname\u003e",
+  "name": "The booking is deleted",
   "keyword": "Then "
 });
 formatter.examples({
@@ -57,83 +37,48 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "firstname",
-        "lastname",
-        "price",
-        "deposit",
-        "checkin",
-        "checkout"
+        "firstname"
       ]
     },
     {
       "cells": [
-        "Shilpa",
-        "Basu",
-        "100",
-        "true",
-        "2019-05-15",
-        "2019-05-20"
+        "Shilpa"
       ]
     },
     {
       "cells": [
-        "s",
-        "B",
-        "-100",
-        "false",
-        "2019-05-15",
-        "2019-05-20"
+        "s"
       ]
     },
     {
       "cells": [
-        "354445",
-        "345345",
-        "15000",
-        "true",
-        "2019-06-19",
-        "2019-06-28"
+        "354445"
       ]
     },
     {
       "cells": [
-        "£%%$$%",
-        "$%^$%^$",
-        "2000",
-        "true",
-        "2019-06-19",
-        "2019-06-28"
+        "£%%$$%"
       ]
     },
     {
       "cells": [
-        "First name",
-        "Last name",
-        "0",
-        "false",
-        "2019-06-19",
-        "2019-06-28"
+        "First name"
       ]
     },
     {
       "cells": [
-        "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
-        "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
-        "100",
-        "true",
-        "2019-06-19",
-        "2019-06-28"
+        "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "I want to create a new Hotel Booking",
+  "name": "I want to delete a new Hotel Booking",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@CreateBooking"
+      "name": "@DeleteBooking"
     }
   ]
 });
@@ -148,92 +93,45 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Firstname as Shilpa",
+  "name": "I see a booking for Shilpa",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+  "location": "DeleteBooking.iSeeABookingForFirstname(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Lastname as Basu",
+  "name": "I click on delete button for Shilpa",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyLastnameAs(String)"
+  "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter the price as 100",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThePriceAs(int)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the true paid",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThe(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkin date as 2019-05-15",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkout date as 2019-05-20",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on the save button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iClickOnTheSaveButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The booking is saved successfully for Shilpa",
+  "name": "The booking is deleted",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+  "location": "DeleteBooking.theBookingIsDeleted()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "I want to create a new Hotel Booking",
+  "name": "I want to delete a new Hotel Booking",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@CreateBooking"
+      "name": "@DeleteBooking"
     }
   ]
 });
@@ -248,92 +146,46 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Firstname as s",
+  "name": "I see a booking for s",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+  "location": "DeleteBooking.iSeeABookingForFirstname(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Lastname as B",
+  "name": "I click on delete button for s",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyLastnameAs(String)"
+  "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[2]/div[1]/div[7]/input\"}\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027THUNDERTWONK\u0027, ip: \u0027192.168.1.124\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\\Users\\Lavanya\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61333}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 86ff9745a8b0c45e613f47fcc1cb3b73\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/div[2]/div[1]/div[7]/input}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pageobjects.DeleteHotelBooking.deleteBooking(DeleteHotelBooking.java:23)\r\n\tat steps.browser.DeleteBooking.iClickOnDeleteButtonFor(DeleteBooking.java:20)\r\n\tat ✽.I click on delete button for s(classpath:features/DeleteBooking.feature:11)\r\n",
+  "status": "failed"
 });
 formatter.step({
-  "name": "I enter the price as -100",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThePriceAs(int)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the false paid",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThe(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkin date as 2019-05-15",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkout date as 2019-05-20",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on the save button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iClickOnTheSaveButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The booking is saved successfully for s",
+  "name": "The booking is deleted",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+  "location": "DeleteBooking.theBookingIsDeleted()"
 });
 formatter.result({
+  "status": "skipped"
+});
+formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "I want to create a new Hotel Booking",
+  "name": "I want to delete a new Hotel Booking",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@CreateBooking"
+      "name": "@DeleteBooking"
     }
   ]
 });
@@ -348,92 +200,45 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Firstname as 354445",
+  "name": "I see a booking for 354445",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+  "location": "DeleteBooking.iSeeABookingForFirstname(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Lastname as 345345",
+  "name": "I click on delete button for 354445",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyLastnameAs(String)"
+  "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter the price as 15000",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThePriceAs(int)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the true paid",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThe(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkin date as 2019-06-19",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkout date as 2019-06-28",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on the save button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iClickOnTheSaveButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The booking is saved successfully for 354445",
+  "name": "The booking is deleted",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+  "location": "DeleteBooking.theBookingIsDeleted()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "I want to create a new Hotel Booking",
+  "name": "I want to delete a new Hotel Booking",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@CreateBooking"
+      "name": "@DeleteBooking"
     }
   ]
 });
@@ -448,92 +253,45 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Firstname as £%%$$%",
+  "name": "I see a booking for £%%$$%",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+  "location": "DeleteBooking.iSeeABookingForFirstname(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Lastname as $%^$%^$",
+  "name": "I click on delete button for £%%$$%",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyLastnameAs(String)"
+  "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter the price as 2000",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThePriceAs(int)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the true paid",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThe(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkin date as 2019-06-19",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkout date as 2019-06-28",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on the save button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iClickOnTheSaveButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The booking is saved successfully for £%%$$%",
+  "name": "The booking is deleted",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+  "location": "DeleteBooking.theBookingIsDeleted()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "I want to create a new Hotel Booking",
+  "name": "I want to delete a new Hotel Booking",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@CreateBooking"
+      "name": "@DeleteBooking"
     }
   ]
 });
@@ -548,92 +306,45 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Firstname as First name",
+  "name": "I see a booking for First name",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+  "location": "DeleteBooking.iSeeABookingForFirstname(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Lastname as Last name",
+  "name": "I click on delete button for First name",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyLastnameAs(String)"
+  "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter the price as 0",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThePriceAs(int)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the false paid",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThe(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkin date as 2019-06-19",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkout date as 2019-06-28",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on the save button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iClickOnTheSaveButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The booking is saved successfully for First name",
+  "name": "The booking is deleted",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+  "location": "DeleteBooking.theBookingIsDeleted()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.after({
+  "status": "passed"
+});
 formatter.scenario({
-  "name": "I want to create a new Hotel Booking",
+  "name": "I want to delete a new Hotel Booking",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@CreateBooking"
+      "name": "@DeleteBooking"
     }
   ]
 });
@@ -648,83 +359,36 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Firstname as The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+  "name": "I see a booking for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+  "location": "DeleteBooking.iSeeABookingForFirstname(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter my Lastname as The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+  "name": "I click on delete button for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateBooking.iEnterMyLastnameAs(String)"
+  "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter the price as 100",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThePriceAs(int)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the true paid",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterThe(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkin date as 2019-06-19",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter the Checkout date as 2019-06-28",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on the save button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateBooking.iClickOnTheSaveButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The booking is saved successfully for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+  "name": "The booking is deleted",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+  "location": "DeleteBooking.theBookingIsDeleted()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

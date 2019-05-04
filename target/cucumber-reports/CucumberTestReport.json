@@ -3,181 +3,458 @@
     "line": 3,
     "elements": [
       {
+        "line": 16,
+        "name": "I want to delete a new Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;i-want-to-delete-a-new-hotel-booking;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 639714205,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4676507752,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4525160977,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for Shilpa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shilpa",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2476505079,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for Shilpa",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shilpa",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25703,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The booking is deleted",
+            "match": {
+              "location": "DeleteBooking.theBookingIsDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "I want to delete a new Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;i-want-to-delete-a-new-hotel-booking;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 644329913,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3609427578,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4343310129,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for s",
+            "match": {
+              "arguments": [
+                {
+                  "val": "s",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[2]/div[1]/div[7]/input\"}\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027THUNDERTWONK\u0027, ip: \u0027192.168.1.124\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\\Users\\Lavanya\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61333}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 86ff9745a8b0c45e613f47fcc1cb3b73\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/div[2]/div[1]/div[7]/input}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat pageobjects.DeleteHotelBooking.deleteBooking(DeleteHotelBooking.java:23)\r\n\tat steps.browser.DeleteBooking.iClickOnDeleteButtonFor(DeleteBooking.java:20)\r\n\tat ✽.I click on delete button for s(classpath:features/DeleteBooking.feature:11)\r\n",
+              "duration": 22064730424,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I click on delete button for s",
+            "match": {
+              "arguments": [
+                {
+                  "val": "s",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5655,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The booking is deleted",
+            "match": {
+              "location": "DeleteBooking.theBookingIsDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "I want to delete a new Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;i-want-to-delete-a-new-hotel-booking;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 634917036,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3479232145,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4351921592,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for 354445",
+            "match": {
+              "arguments": [
+                {
+                  "val": "354445",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2426875559,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for 354445",
+            "match": {
+              "arguments": [
+                {
+                  "val": "354445",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20048,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The booking is deleted",
+            "match": {
+              "location": "DeleteBooking.theBookingIsDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "I want to delete a new Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;i-want-to-delete-a-new-hotel-booking;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 637567509,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3561093993,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4368466993,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for £%%$$%",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£%%$$%",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2376738151,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for £%%$$%",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£%%$$%",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19020,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The booking is deleted",
+            "match": {
+              "location": "DeleteBooking.theBookingIsDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "I want to delete a new Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;i-want-to-delete-a-new-hotel-booking;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 654270210,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3638625949,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4291274314,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for First name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2299428781,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for First name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38040,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The booking is deleted",
+            "match": {
+              "location": "DeleteBooking.theBookingIsDeleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
         "line": 21,
-        "name": "I want to create a new Hotel Booking",
+        "name": "I want to delete a new Hotel Booking",
         "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;i-want-to-create-a-new-hotel-booking;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        "id": "delete-the-hotel-booking-for-a-customer;i-want-to-delete-a-new-hotel-booking;;7",
+        "after": [
           {
             "result": {
-              "duration": 4382402019,
+              "duration": 651828445,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I am on the Hotel Booking home page",
             "match": {
-              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 146457589,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I enter my Firstname as Shilpa",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Shilpa",
-                  "offset": 24
-                }
-              ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 132967223,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I enter my Lastname as Basu",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Basu",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 124597880,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as 100",
-            "match": {
-              "arguments": [
-                {
-                  "val": "100",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 115259541,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the true paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "true",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 254698727,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-05-15",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-05-15",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 148978006,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-05-20",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-05-20",
-                  "offset": 29
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 76072037,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click on the save button",
-            "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4247649994,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for Shilpa",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Shilpa",
-                  "offset": 38
-                }
-              ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
-            },
-            "keyword": "Then "
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
           }
         ],
-        "tags": [
-          {
-            "name": "@CreateBooking"
-          }
-        ]
-      },
-      {
-        "line": 22,
-        "name": "I want to create a new Hotel Booking",
-        "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;i-want-to-create-a-new-hotel-booking;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4359194454,
+              "duration": 3583959710,
               "status": "passed"
             },
             "line": 9,
@@ -189,818 +466,68 @@
           },
           {
             "result": {
-              "duration": 111036059,
+              "duration": 4268027166,
               "status": "passed"
             },
             "line": 10,
-            "name": "I enter my Firstname as s",
-            "match": {
-              "arguments": [
-                {
-                  "val": "s",
-                  "offset": 24
-                }
-              ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 109608011,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I enter my Lastname as B",
-            "match": {
-              "arguments": [
-                {
-                  "val": "B",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 159532599,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as -100",
-            "match": {
-              "arguments": [
-                {
-                  "val": "-100",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 198001454,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the false paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "false",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 240293341,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-05-15",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-05-15",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 149818486,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-05-20",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-05-20",
-                  "offset": 29
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 102491423,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click on the save button",
-            "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4384646386,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for s",
-            "match": {
-              "arguments": [
-                {
-                  "val": "s",
-                  "offset": 38
-                }
-              ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CreateBooking"
-          }
-        ]
-      },
-      {
-        "line": 23,
-        "name": "I want to create a new Hotel Booking",
-        "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;i-want-to-create-a-new-hotel-booking;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3717207094,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I am on the Hotel Booking home page",
-            "match": {
-              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 166167004,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I enter my Firstname as 354445",
-            "match": {
-              "arguments": [
-                {
-                  "val": "354445",
-                  "offset": 24
-                }
-              ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 123486491,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I enter my Lastname as 345345",
-            "match": {
-              "arguments": [
-                {
-                  "val": "345345",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 102477544,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as 15000",
-            "match": {
-              "arguments": [
-                {
-                  "val": "15000",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 61304756,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the true paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "true",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 196118467,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-06-19",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-19",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 165808707,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-06-28",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-28",
-                  "offset": 29
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 95735188,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click on the save button",
-            "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4298226405,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for 354445",
-            "match": {
-              "arguments": [
-                {
-                  "val": "354445",
-                  "offset": 38
-                }
-              ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CreateBooking"
-          }
-        ]
-      },
-      {
-        "line": 24,
-        "name": "I want to create a new Hotel Booking",
-        "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;i-want-to-create-a-new-hotel-booking;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3738010419,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I am on the Hotel Booking home page",
-            "match": {
-              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 154856748,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I enter my Firstname as £%%$$%",
-            "match": {
-              "arguments": [
-                {
-                  "val": "£%%$$%",
-                  "offset": 24
-                }
-              ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 145799084,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I enter my Lastname as $%^$%^$",
-            "match": {
-              "arguments": [
-                {
-                  "val": "$%^$%^$",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 128230712,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as 2000",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2000",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 92408218,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the true paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "true",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 295709587,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-06-19",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-19",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 149842647,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-06-28",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-28",
-                  "offset": 29
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 109551980,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click on the save button",
-            "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4297374614,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for £%%$$%",
-            "match": {
-              "arguments": [
-                {
-                  "val": "£%%$$%",
-                  "offset": 38
-                }
-              ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CreateBooking"
-          }
-        ]
-      },
-      {
-        "line": 25,
-        "name": "I want to create a new Hotel Booking",
-        "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;i-want-to-create-a-new-hotel-booking;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4012536279,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I am on the Hotel Booking home page",
-            "match": {
-              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 225248469,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I enter my Firstname as First name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "First name",
-                  "offset": 24
-                }
-              ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 124542875,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "I enter my Lastname as Last name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Last name",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 73506385,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as 0",
-            "match": {
-              "arguments": [
-                {
-                  "val": "0",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 112788990,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the false paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "false",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 246415231,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-06-19",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-19",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 157647557,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-06-28",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-28",
-                  "offset": 29
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 94494770,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click on the save button",
-            "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4434812580,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for First name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "First name",
-                  "offset": 38
-                }
-              ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@CreateBooking"
-          }
-        ]
-      },
-      {
-        "line": 26,
-        "name": "I want to create a new Hotel Booking",
-        "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;i-want-to-create-a-new-hotel-booking;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3881260300,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I am on the Hotel Booking home page",
-            "match": {
-              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2861587384,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I enter my Firstname as The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+            "name": "I see a booking for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
             "match": {
               "arguments": [
                 {
                   "val": "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
-                  "offset": 24
+                  "offset": 20
                 }
               ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2890309739,
+              "duration": 2345694320,
               "status": "passed"
             },
             "line": 11,
-            "name": "I enter my Lastname as The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+            "name": "I click on delete button for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
             "match": {
               "arguments": [
                 {
                   "val": "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 107151339,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as 100",
-            "match": {
-              "arguments": [
-                {
-                  "val": "100",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(int)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 63467389,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the true paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "true",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 239104844,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-06-19",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-19",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 163770990,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-06-28",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-28",
                   "offset": 29
                 }
               ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 113811447,
+              "duration": 19535,
               "status": "passed"
             },
-            "line": 16,
-            "name": "I click on the save button",
+            "line": 12,
+            "name": "The booking is deleted",
             "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4337116784,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
-            "match": {
-              "arguments": [
-                {
-                  "val": "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
-                  "offset": 38
-                }
-              ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+              "location": "DeleteBooking.theBookingIsDeleted()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@CreateBooking"
+            "name": "@DeleteBooking"
           }
         ]
       }
     ],
-    "name": "Create the Hotel Booking For a specific time period",
-    "description": "As a customer I want to create a hotel booking for the holiday",
-    "id": "create-the-hotel-booking-for-a-specific-time-period",
+    "name": "Delete the Hotel Booking For a customer",
+    "description": "  As a customer I want to Delete a hotel booking",
+    "id": "delete-the-hotel-booking-for-a-customer",
     "keyword": "Feature",
-    "uri": "classpath:features/CreateBooking.feature",
+    "uri": "classpath:features/DeleteBooking.feature",
     "tags": [
       {
-        "name": "@CreateBooking",
+        "name": "@DeleteBooking",
         "type": "Tag",
         "location": {
           "line": 1,

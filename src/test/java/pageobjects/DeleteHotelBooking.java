@@ -8,10 +8,7 @@ import java.util.List;
 
 public class DeleteHotelBooking extends BasePage {
 
-    public static void main(String[] args) {
-        driver = initializeChromeDriver();
-
-        driver.get("http://hotel-test.equalexperts.io/");
+    public static void deleteBooking(String firstname) {
         try {
             Thread.sleep(2000);
             wait = explicitWait();
@@ -19,20 +16,17 @@ public class DeleteHotelBooking extends BasePage {
 
 
             List<WebElement> rows = driver.findElements(By.xpath("//div[@id='bookings']/div[@class='row']"));
-            System.out.println(rows.size());
             for (int i = 0; i < rows.size(); i++) {
                 WebElement link = rows.get(i);
-                System.out.println("------------Link " + i + " Text-----------");
-                System.out.println(link.getText());
-                if (link.getText().contains("Shilpa")) {
+                if (link.getText().contains(firstname)) {
                     int j = i + 1;
                     driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[" + j + "]/div[7]/input")).click();
 
                 }
             }
-        }catch (InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
+    
 }
