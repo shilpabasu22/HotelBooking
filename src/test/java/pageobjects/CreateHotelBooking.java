@@ -2,16 +2,18 @@ package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 import java.util.Calendar;
 
 
-public class hotelSearchPageObjects extends BasePage {
+public class CreateHotelBooking extends BasePage {
 
 
 public static final String FIRSTNAME = "firstname";
@@ -22,19 +24,7 @@ public static final String CHECKIN = "checkin";
 public static final String CHECKOUT = "checkout";
 //public static final String SAVE = "//input[value()=' Save ']";
 public static final String SAVE = "/html/body/div[1]/div[3]/div/div[7]/input";
-    public static void main(String[] args) {
-        driver = initializeChromeDriver();
-        driver.get("http://hotel-test.equalexperts.io/");
-        setFirstName("Shilpa");
-        setLastName("Basu");
-        setTotalPrice(200);
-        setDepositPaid("true");
-        setCheckin("2019-05-15");
-        setCheckOut("2019-05-22");
-        setSaveRecord();
 
-
-    }
 
     public static void setFirstName(String firstName){
         driver.findElement(By.id(FIRSTNAME)).sendKeys(firstName);
@@ -58,7 +48,7 @@ public static final String SAVE = "/html/body/div[1]/div[3]/div/div[7]/input";
         value_select.selectByVisibleText(depositPaid);
 
     }
-    public static void setCheckin(String checkin){
+    public static void setCheckin(String checkin){ //This commented code is not yet complete and can be worked upon to work with calendar controls
            /* int year;
             String month;
             String day;
@@ -127,5 +117,33 @@ public static final String SAVE = "/html/body/div[1]/div[3]/div/div[7]/input";
     }
     public static void setSaveRecord(){
         driver.findElement(By.xpath(SAVE)).click();
+    }
+    public static boolean checkRecordExists(String firstname) {
+        List<WebElement> rows=null;
+        try {
+            Thread.sleep(4000);
+
+         //   wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("/html/body/div[1]/div[3]/div/div[7]/input"))));
+
+
+            rows = driver.findElements(By.xpath("//div[@id='bookings']/div[@class='row']"));
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+            int count = 0;
+            for (int i = 0; i < rows.size(); i++) {
+                WebElement link = rows.get(i);
+                if (link.getText().contains(firstname)) {
+                    count++;
+                } else {
+                    continue;
+                }
+            }
+            if (count >= 1) {
+                return true;
+            } else {
+                return false;
+            }
+
     }
 }
