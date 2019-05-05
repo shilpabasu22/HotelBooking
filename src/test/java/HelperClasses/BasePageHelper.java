@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class BasePageHelper {
+public class BasePageHelper{
 
     public static ChromeOptions loadChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
@@ -22,7 +22,6 @@ public class BasePageHelper {
             Properties prop = new Properties();
             prop.load(input);
             System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, prop.getProperty("logs"));
-            System.out.println("Logs are at " +prop.getProperty("logs"));
 
             chromeOptions.setPageLoadStrategy(PageLoadStrategy.NORMAL);
             chromeOptions.addArguments("--disable-notifications");

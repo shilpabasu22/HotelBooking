@@ -13,7 +13,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
                 "json:target/cucumber-reports/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
         },
-        dryRun=false)
+        strict = true,
+        monochrome = true)
 public class CreateBooking extends AbstractTestNGCucumberTests {
 
 }

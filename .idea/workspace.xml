@@ -2,19 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b67e1a-0d72-4c46-a1df-fa85dfa262a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Manual Test Case Scenarios.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Report_Sun May 05 18_58_32 BST 2019/Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Report_Sun May 05 18_59_20 BST 2019/Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Report_Sun May 05 19_00_16 BST 2019/Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Report_Sun May 05 19_34_43 BST 2019/Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Report_Sun May 05 19_37_12 BST 2019/Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Report_Sun May 05 19_38_26 BST 2019/Report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/hotelDeletePageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/DeleteHotelBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/hotelSearchPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/HotelSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CreateBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/browser/HotelSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/hotelsearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateBooking.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/hotelsearch.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/hotelDeletePageObjects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/hotelSearchPageObjects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/HotelSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/browser/HotelSearchSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/paths.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config/paths.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateBooking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CreateBooking.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DeleteBooking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/DeleteBooking.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HelperClasses/BasePageHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HelperClasses/BasePageHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/CreateBooking.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/CreateBooking.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/CreateHotelBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/CreateHotelBooking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/DeleteHotelBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/DeleteHotelBooking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/browser/CreateBooking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/browser/CreateBooking.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,22 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/CreateBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="16" column="25" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,35 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateBooking.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+            <state relative-caret-position="504">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/config/test.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1494">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="458">
+              <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,10 +73,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/DeleteHotelBooking.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="26" column="56" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="260">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +87,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+            <state relative-caret-position="18">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/config/paths.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteBooking.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -126,6 +157,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pico</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -135,20 +171,28 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/browser/Search.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/hotel_search.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/browser/HotelSearch.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/config/test.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/config/paths.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/hotelSearchPageObjects.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/hotelDeletePageObjects.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/browser/HotelSearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/runners/HotelSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/runners/CreateBooking.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/CreateBooking.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/DeleteBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/config/test.properties" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/HelperClasses/WebConnector.java" />
+        <option value="$PROJECT_DIR$/src/test/java/reports/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/browser/DeleteBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageobjects/DeleteHotelBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/config/paths.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/CreateBooking.feature" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/DeleteBooking.feature" />
       </list>
     </option>
   </component>
@@ -161,12 +205,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hotelbooking" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -182,8 +221,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +259,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HelperClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hotel_Booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hotel_Booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hotel_Booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hotel_Booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hotel_Booking" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +306,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hotel_Booking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hotel_Booking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -261,11 +324,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/reports" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Shilpa\Hotel_Booking\src\test\java\reports" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -361,6 +429,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeleteBooking" type="TestNG" nameIsGenerated="true">
+      <module name="Hotel_Booking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.DeleteBooking" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H:/Shilpa/Hotel_Booking/testng.xml" type="TestNG" nameIsGenerated="true">
+      <module name="Hotel_Booking" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DeleteHotelBooking" />
@@ -381,34 +491,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateBooking - 2019.05.04 at 08h 51m 07s.xml">
+    <history-entry file="DeleteBooking - 2019.05.05 at 12h 20m 53s.xml">
+      <configuration name="DeleteBooking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteBooking - 2019.05.05 at 12h 22m 22s.xml">
+      <configuration name="DeleteBooking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteBooking - 2019.05.05 at 12h 23m 55s.xml">
+      <configuration name="DeleteBooking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeleteBooking - 2019.05.05 at 12h 25m 50s.xml">
+      <configuration name="DeleteBooking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="H__Shilpa_Hotel_Booking_testng_xml - 2019.05.05 at 18h 58m 35s.xml">
+      <configuration name="H:/Shilpa/Hotel_Booking/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="H__Shilpa_Hotel_Booking_testng_xml - 2019.05.05 at 18h 59m 22s.xml">
+      <configuration name="H:/Shilpa/Hotel_Booking/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="H__Shilpa_Hotel_Booking_testng_xml - 2019.05.05 at 19h 03m 16s.xml">
+      <configuration name="H:/Shilpa/Hotel_Booking/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateBooking - 2019.05.05 at 19h 34m 55s.xml">
       <configuration name="CreateBooking" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 08h 53m 00s.xml">
+    <history-entry file="CreateBooking - 2019.05.05 at 19h 37m 24s.xml">
       <configuration name="CreateBooking" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 06m 33s.xml">
-      <configuration name="CreateBooking" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 09m 56s.xml">
-      <configuration name="CreateBooking" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 11m 44s.xml">
-      <configuration name="CreateBooking" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 13m 33s.xml">
-      <configuration name="CreateBooking" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 16m 37s.xml">
-      <configuration name="CreateBooking" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 18m 34s.xml">
-      <configuration name="CreateBooking" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 19m 47s.xml">
-      <configuration name="CreateBooking" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateBooking - 2019.05.04 at 09h 28m 28s.xml">
+    <history-entry file="CreateBooking - 2019.05.05 at 19h 38m 47s.xml">
       <configuration name="CreateBooking" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -416,7 +526,7 @@
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14476496" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,7 +554,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14155982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15277778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -453,12 +563,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
@@ -477,7 +587,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java</url>
-          <line>27</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -486,6 +596,97 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HotelSearch.substeps" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/DeleteBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports/cucumber-pretty/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber-reports/CucumberTestReport.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding>
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HelperClasses/WebConnector.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/reports/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="77" selection-start-line="36" selection-start-column="77" selection-end-line="36" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReportsSun May 05 11_02_08 BST 2019/Report.html" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/Report_Sun May 05 11_58_00 BST 2019/screenshots/Sun_May_05_11_59_18_BST_2019.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/browser/DeleteBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/config/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/DeleteHotelBooking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="117" selection-start-line="26" selection-start-column="117" selection-end-line="26" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/config/paths.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -495,49 +696,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelperClasses/BasePageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="314">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-testng/4.2.6/cucumber-testng-4.2.6.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="72">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/config/test.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/DeleteHotelBooking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="260">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runners/CreateBooking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="16" column="25" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -556,28 +740,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/browser/CreateBooking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="458">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateBooking.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+        <state relative-caret-position="504">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/CreateHotelBooking.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/DeleteBooking.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
