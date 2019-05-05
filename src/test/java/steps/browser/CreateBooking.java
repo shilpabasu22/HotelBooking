@@ -42,8 +42,8 @@ public class CreateBooking extends BasePage {
 
     }
 
-    @And("^I enter the price as \\+?(-?\\d+)$")
-    public void iEnterThePriceAs(int totalPrice) {
+    @And("^I enter the price as \\+?(-?\\d+\\.?\\d+)$")
+    public void iEnterThePriceAs(float totalPrice) {
         createHotelBooking.setTotalPrice(totalPrice);
         createHotelBooking.infoLog("I enter the price as "+totalPrice);
 

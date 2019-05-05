@@ -17,6 +17,8 @@ There are 2 runner classes that could be run individually:
 The framework used Extent Reports to record the test execution reports. These reports are saved under Reports Folder.
 <br>Any failures are saved with a screen shot and can be referred as required. Screenshots are saved under the Reports folder and the individual execution report.
 
+##Manual Test Cases
+Manual test cases could be found at Manual Test Case Scenarios.docx
 
 ##Test Suite
 Tests are created using TestNG framework. These tests could be run through testng.xml file.

@@ -32,7 +32,7 @@ public static final String SAVE = "/html/body/div[1]/div[3]/div/div[7]/input";
 
     }
 
-    public static void setTotalPrice(int totalPrice){
+    public static void setTotalPrice(float totalPrice){
         String totalPrice_Val = String.valueOf(totalPrice);
         softAssert.assertThat(driver.findElement(By.id(TOTALPRICE)));
         driver.findElement(By.id(TOTALPRICE)).sendKeys(totalPrice_Val);
