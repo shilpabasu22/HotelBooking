@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 126458,
+              "duration": 156273,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 69912,
+              "duration": 88932,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 1303061100,
+              "duration": 1339698372,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 28722869,
+              "duration": 27982115,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3601614444,
+              "duration": 3582699245,
               "status": "passed"
             },
             "line": 9,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 4179643492,
+              "duration": 4177149808,
               "status": "passed"
             },
             "line": 10,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 4212592415,
+              "duration": 4204496549,
               "status": "passed"
             },
             "line": 11,
@@ -100,9 +100,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test1(classpath:features/DeleteBooking.feature:12)\r\n",
-              "duration": 4126938376,
-              "status": "failed"
+              "duration": 4107703949,
+              "status": "passed"
             },
             "line": 12,
             "name": "The booking is deleted for Test1",
@@ -128,7 +127,7 @@
         "before": [
           {
             "result": {
-              "duration": 134683,
+              "duration": 76081,
               "status": "passed"
             },
             "match": {
@@ -137,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 57060,
+              "duration": 32900,
               "status": "passed"
             },
             "match": {
@@ -152,7 +151,7 @@
         "after": [
           {
             "result": {
-              "duration": 1403158564,
+              "duration": 1401069442,
               "status": "passed"
             },
             "match": {
@@ -161,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 22912497,
+              "duration": 26695433,
               "status": "passed"
             },
             "match": {
@@ -174,7 +173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3525117796,
+              "duration": 3489237727,
               "status": "passed"
             },
             "line": 9,
@@ -186,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 4193521972,
+              "duration": 4188102795,
               "status": "passed"
             },
             "line": 10,
@@ -204,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 4172595272,
+              "duration": 4234843835,
               "status": "passed"
             },
             "line": 11,
@@ -222,9 +221,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for sb(classpath:features/DeleteBooking.feature:12)\r\n",
-              "duration": 4088774357,
-              "status": "failed"
+              "duration": 4121426156,
+              "status": "passed"
             },
             "line": 12,
             "name": "The booking is deleted for sb",
@@ -250,7 +248,7 @@
         "before": [
           {
             "result": {
-              "duration": 118233,
+              "duration": 133655,
               "status": "passed"
             },
             "match": {
@@ -259,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 51920,
+              "duration": 40096,
               "status": "passed"
             },
             "match": {
@@ -274,7 +272,7 @@
         "after": [
           {
             "result": {
-              "duration": 1388682239,
+              "duration": 1472071347,
               "status": "passed"
             },
             "match": {
@@ -283,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 21717317,
+              "duration": 20997124,
               "status": "passed"
             },
             "match": {
@@ -296,7 +294,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3616233678,
+              "duration": 3456787953,
               "status": "passed"
             },
             "line": 9,
@@ -308,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 4164685496,
+              "duration": 4183275296,
               "status": "passed"
             },
             "line": 10,
@@ -326,7 +324,7 @@
           },
           {
             "result": {
-              "duration": 4178276617,
+              "duration": 4155339447,
               "status": "passed"
             },
             "line": 11,
@@ -344,9 +342,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for 354445(classpath:features/DeleteBooking.feature:12)\r\n",
-              "duration": 4077036920,
-              "status": "failed"
+              "duration": 4080979729,
+              "status": "passed"
             },
             "line": 12,
             "name": "The booking is deleted for 354445",
@@ -372,7 +369,7 @@
         "before": [
           {
             "result": {
-              "duration": 80707,
+              "duration": 90474,
               "status": "passed"
             },
             "match": {
@@ -381,7 +378,7 @@
           },
           {
             "result": {
-              "duration": 28787,
+              "duration": 30843,
               "status": "passed"
             },
             "match": {
@@ -396,7 +393,7 @@
         "after": [
           {
             "result": {
-              "duration": 1509572748,
+              "duration": 1532280650,
               "status": "passed"
             },
             "match": {
@@ -405,7 +402,7 @@
           },
           {
             "result": {
-              "duration": 20929783,
+              "duration": 20119117,
               "status": "passed"
             },
             "match": {
@@ -418,7 +415,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3453941626,
+              "duration": 3476171970,
               "status": "passed"
             },
             "line": 9,
@@ -430,7 +427,7 @@
           },
           {
             "result": {
-              "duration": 4156081229,
+              "duration": 4151379675,
               "status": "passed"
             },
             "line": 10,
@@ -448,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 4195939062,
+              "duration": 4135099013,
               "status": "passed"
             },
             "line": 11,
@@ -466,9 +463,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for £%%$$%(classpath:features/DeleteBooking.feature:12)\r\n",
-              "duration": 4110086084,
-              "status": "failed"
+              "duration": 4064620930,
+              "status": "passed"
             },
             "line": 12,
             "name": "The booking is deleted for £%%$$%",
@@ -494,7 +490,7 @@
         "before": [
           {
             "result": {
-              "duration": 73510,
+              "duration": 64257,
               "status": "passed"
             },
             "match": {
@@ -503,7 +499,7 @@
           },
           {
             "result": {
-              "duration": 30330,
+              "duration": 24161,
               "status": "passed"
             },
             "match": {
@@ -518,7 +514,7 @@
         "after": [
           {
             "result": {
-              "duration": 638527251,
+              "duration": 640735120,
               "status": "passed"
             },
             "match": {
@@ -527,7 +523,7 @@
           },
           {
             "result": {
-              "duration": 32993646,
+              "duration": 99058044,
               "status": "passed"
             },
             "match": {
@@ -540,7 +536,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3919188368,
+              "duration": 3512980938,
               "status": "passed"
             },
             "line": 9,
@@ -553,7 +549,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.iSeeABookingForFirstname(DeleteBooking.java:25)\r\n\tat ✽.I see a booking for First name(classpath:features/DeleteBooking.feature:10)\r\n",
-              "duration": 4115305806,
+              "duration": 4122219858,
               "status": "failed"
             },
             "line": 10,
@@ -571,7 +567,7 @@
           },
           {
             "result": {
-              "duration": 1542,
+              "duration": 2056,
               "status": "skipped"
             },
             "line": 11,
@@ -589,7 +585,7 @@
           },
           {
             "result": {
-              "duration": 514,
+              "duration": 1028,
               "status": "skipped"
             },
             "line": 12,
@@ -616,7 +612,7 @@
         "before": [
           {
             "result": {
-              "duration": 115663,
+              "duration": 158843,
               "status": "passed"
             },
             "match": {
@@ -625,7 +621,7 @@
           },
           {
             "result": {
-              "duration": 69397,
+              "duration": 74024,
               "status": "passed"
             },
             "match": {
@@ -640,7 +636,7 @@
         "after": [
           {
             "result": {
-              "duration": 1569756348,
+              "duration": 667963116,
               "status": "passed"
             },
             "match": {
@@ -649,7 +645,7 @@
           },
           {
             "result": {
-              "duration": 23787933,
+              "duration": 73491477,
               "status": "passed"
             },
             "match": {
@@ -662,7 +658,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3512567123,
+              "duration": 4756666019,
               "status": "passed"
             },
             "line": 9,
@@ -674,7 +670,7 @@
           },
           {
             "result": {
-              "duration": 4109578197,
+              "duration": 4115579798,
               "status": "passed"
             },
             "line": 10,
@@ -692,7 +688,7 @@
           },
           {
             "result": {
-              "duration": 4146182056,
+              "duration": 4127094649,
               "status": "passed"
             },
             "line": 11,
@@ -710,9 +706,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test2(classpath:features/DeleteBooking.feature:12)\r\n",
-              "duration": 4056424824,
-              "status": "failed"
+              "duration": 4055407507,
+              "status": "passed"
             },
             "line": 12,
             "name": "The booking is deleted for Test2",
@@ -738,7 +733,7 @@
         "before": [
           {
             "result": {
-              "duration": 81734,
+              "duration": 124915,
               "status": "passed"
             },
             "match": {
@@ -747,7 +742,7 @@
           },
           {
             "result": {
-              "duration": 27245,
+              "duration": 60145,
               "status": "passed"
             },
             "match": {
@@ -762,7 +757,7 @@
         "after": [
           {
             "result": {
-              "duration": 1606613637,
+              "duration": 832898442,
               "status": "passed"
             },
             "match": {
@@ -771,7 +766,7 @@
           },
           {
             "result": {
-              "duration": 24625330,
+              "duration": 21169847,
               "status": "passed"
             },
             "match": {
@@ -784,7 +779,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3510144378,
+              "duration": 4286174880,
               "status": "passed"
             },
             "line": 9,
@@ -796,7 +791,7 @@
           },
           {
             "result": {
-              "duration": 4112563833,
+              "duration": 4077749402,
               "status": "passed"
             },
             "line": 10,
@@ -814,7 +809,7 @@
           },
           {
             "result": {
-              "duration": 4148069669,
+              "duration": 4141253289,
               "status": "passed"
             },
             "line": 11,
@@ -832,9 +827,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test3(classpath:features/DeleteBooking.feature:12)\r\n",
-              "duration": 4051266274,
-              "status": "failed"
+              "duration": 4045305796,
+              "status": "passed"
             },
             "line": 12,
             "name": "The booking is deleted for Test3",
@@ -860,7 +854,7 @@
         "before": [
           {
             "result": {
-              "duration": 450827,
+              "duration": 355212,
               "status": "passed"
             },
             "match": {
@@ -869,7 +863,7 @@
           },
           {
             "result": {
-              "duration": 345960,
+              "duration": 320771,
               "status": "passed"
             },
             "match": {
@@ -884,7 +878,7 @@
         "after": [
           {
             "result": {
-              "duration": 673646003,
+              "duration": 1156833806,
               "status": "passed"
             },
             "match": {
@@ -893,7 +887,7 @@
           },
           {
             "result": {
-              "duration": 34635025,
+              "duration": 29051865,
               "status": "passed"
             },
             "match": {
@@ -906,7 +900,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3468651334,
+              "duration": 4369991169,
               "status": "passed"
             },
             "line": 9,
@@ -918,7 +912,7 @@
           },
           {
             "result": {
-              "duration": 4077171603,
+              "duration": 4080008678,
               "status": "passed"
             },
             "line": 10,
@@ -936,7 +930,7 @@
           },
           {
             "result": {
-              "duration": 4118178351,
+              "duration": 4140039602,
               "status": "passed"
             },
             "line": 11,
@@ -954,9 +948,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog(classpath:features/DeleteBooking.feature:12)\r\n",
-              "duration": 4042952449,
-              "status": "failed"
+              "duration": 4100086670,
+              "status": "passed"
             },
             "line": 12,
             "name": "The booking is deleted for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",

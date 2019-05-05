@@ -136,8 +136,7 @@ formatter.match({
   "location": "DeleteBooking.theBookingIsDeleted(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test1(classpath:features/DeleteBooking.feature:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -199,8 +198,7 @@ formatter.match({
   "location": "DeleteBooking.theBookingIsDeleted(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for sb(classpath:features/DeleteBooking.feature:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -262,8 +260,7 @@ formatter.match({
   "location": "DeleteBooking.theBookingIsDeleted(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for 354445(classpath:features/DeleteBooking.feature:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -325,8 +322,7 @@ formatter.match({
   "location": "DeleteBooking.theBookingIsDeleted(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for £%%$$%(classpath:features/DeleteBooking.feature:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -451,8 +447,7 @@ formatter.match({
   "location": "DeleteBooking.theBookingIsDeleted(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test2(classpath:features/DeleteBooking.feature:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -514,8 +509,7 @@ formatter.match({
   "location": "DeleteBooking.theBookingIsDeleted(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test3(classpath:features/DeleteBooking.feature:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -577,8 +571,7 @@ formatter.match({
   "location": "DeleteBooking.theBookingIsDeleted(String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog(classpath:features/DeleteBooking.feature:12)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"

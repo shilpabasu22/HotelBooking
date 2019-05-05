@@ -1,1 +1,1 @@
-classpath:features/DeleteBooking.feature:16:17:18:19:20:21:22:23
+classpath:features/DeleteBooking.feature:20
