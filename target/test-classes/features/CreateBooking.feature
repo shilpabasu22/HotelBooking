@@ -5,7 +5,7 @@ Feature: Create the Hotel Booking For a specific time period
 As a customer I want to create a hotel booking for the holiday
 
 
-Scenario Outline: I want to create a new Hotel Booking
+Scenario Outline: Create a new Hotel Booking
     Given I am on the Hotel Booking home page
     When I enter my Firstname as <firstname>
     And I enter my Lastname as <lastname>
@@ -18,8 +18,8 @@ Scenario Outline: I want to create a new Hotel Booking
 
 Examples:
     |firstname |lastname|price|deposit|checkin       |checkout       |
-    |Shilpa    |Basu    |100  |true   |2019-05-15    |2019-05-20     |
-    |s         |B       |-100 |false  |2019-05-15    |2019-05-20     |
+    |Test      |User    |100  |true   |2019-05-15    |2019-05-20     |
+    |sb        |B       |-100 |false  |2019-05-15    |2019-05-20     |
     |354445    |345345  |15000|true   |2019-06-19    |2019-06-28     |
     |£%%$$%    |$%^$%^$ |2000 |true   |2019-06-19    |2019-06-28     |
     |First name|Last name|0   |false  |2019-06-19    |2019-06-28     |

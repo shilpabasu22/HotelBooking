@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">BDD Test Suite</th></tr>
+<tr><td><a href="#t0">Hotel Booking</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">9</td><td class="num">167,056</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BDD Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Hotel Booking &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">runners.CreateBooking</td><td><a href="#m0">runScenario</a></td><td rowspan="3">1557055678127</td><td rowspan="3">9306</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr class="failedodd"><td rowspan="6">runners.DeleteBooking</td><td><a href="#m3">runScenario</a></td><td rowspan="6">1557055781539</td><td rowspan="6">17404</td></tr><tr class="failedodd"><td><a href="#m4">runScenario</a></td></tr><tr class="failedodd"><td><a href="#m5">runScenario</a></td></tr><tr class="failedodd"><td><a href="#m6">runScenario</a></td></tr><tr class="failedodd"><td><a href="#m7">runScenario</a></td></tr><tr class="failedodd"><td><a href="#m8">runScenario</a></td></tr><tr><th colspan="4">Hotel Booking &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">runners.CreateBooking</td><td><a href="#m9">runScenario</a></td><td rowspan="3">1557055706168</td><td rowspan="3">9279</td></tr><tr class="passedeven"><td><a href="#m10">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m11">runScenario</a></td></tr></tbody>
+</table>
+<h2>Hotel Booking</h2><h3 id="m0">runners.CreateBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Create a new Hotel Booking&quot;</td><td>&quot;Create the Hotel Booking For a specific time period&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.CreateBooking.theBookingIsSavedSuccessfullyFor(CreateBooking.java:82)
+	at ✽.The booking is saved successfully for sb(classpath:features/CreateBooking.feature:17)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">runners.CreateBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Create a new Hotel Booking&quot;</td><td>&quot;Create the Hotel Booking For a specific time period&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.CreateBooking.theBookingIsSavedSuccessfullyFor(CreateBooking.java:82)
+	at ✽.The booking is saved successfully for Test(classpath:features/CreateBooking.feature:17)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">runners.CreateBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Create a new Hotel Booking&quot;</td><td>&quot;Create the Hotel Booking For a specific time period&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.CreateBooking.theBookingIsSavedSuccessfullyFor(CreateBooking.java:82)
+	at ✽.The booking is saved successfully for £%%$$%(classpath:features/CreateBooking.feature:17)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">runners.DeleteBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Delete An Existing Hotel Booking&quot;</td><td>&quot;Delete the Hotel Booking For a customer&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)
+	at ✽.The booking is deleted for £%%$$%(classpath:features/DeleteBooking.feature:12)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">runners.DeleteBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Delete An Existing Hotel Booking&quot;</td><td>&quot;Delete the Hotel Booking For a customer&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)
+	at ✽.The booking is deleted for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog(classpath:features/DeleteBooking.feature:12)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">runners.DeleteBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Delete An Existing Hotel Booking&quot;</td><td>&quot;Delete the Hotel Booking For a customer&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)
+	at ✽.The booking is deleted for First name(classpath:features/DeleteBooking.feature:12)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">runners.DeleteBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Delete An Existing Hotel Booking&quot;</td><td>&quot;Delete the Hotel Booking For a customer&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)
+	at ✽.The booking is deleted for 354445(classpath:features/DeleteBooking.feature:12)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">runners.DeleteBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Delete An Existing Hotel Booking&quot;</td><td>&quot;Delete the Hotel Booking For a customer&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)
+	at ✽.The booking is deleted for Test(classpath:features/DeleteBooking.feature:12)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">runners.DeleteBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Delete An Existing Hotel Booking&quot;</td><td>&quot;Delete the Hotel Booking For a customer&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)
+	at ✽.The booking is deleted for sb(classpath:features/DeleteBooking.feature:12)
+... Removed 4 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">runners.CreateBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Create a new Hotel Booking&quot;</td><td>&quot;Create the Hotel Booking For a specific time period&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">runners.CreateBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Create a new Hotel Booking&quot;</td><td>&quot;Create the Hotel Booking For a specific time period&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">runners.CreateBooking#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Create a new Hotel Booking&quot;</td><td>&quot;Create the Hotel Booking For a specific time period&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class BasePageHelper {
+public class BasePageHelper{
 
     public static ChromeOptions loadChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();

@@ -68,7 +68,7 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>3.12.2</version>
+            <version>3.10.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -88,7 +88,20 @@
             <version>2.6</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+      <!--  <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>4.3.0</version>
+            <scope>test</scope>
+        </dependency>-->
 
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.1.2</version>
+        </dependency>
 
 
     </dependencies>
@@ -99,7 +112,61 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+                <!--<configuration>
+                    <forkCount>6</forkCount>
+                    <reuseForks>true</reuseForks>
+                    <includes>
+                        <include>**/*IT.class</include>
+                    </includes>
+                </configuration>-->
             </plugin>
+           <!-- <plugin>
+                <groupId>com.github.temyers</groupId>
+                <artifactId>cucumber-jvm-parallel-plugin</artifactId>
+                <version>5.0.0</version>
+                <executions>
+                    <execution>
+                        <id>generateRunners</id>
+                        <phase>generate-test-sources</phase>
+                        <goals>
+                            <goal>generateRunners</goal>
+                        </goals>
+                        <configuration>
+                            <glue>
+                                <package>steps.browser</package>
+                            </glue>
+                            <outputDirectory>${project.build.directory}/generated-test-sources/cucumber</outputDirectory>
+                            <cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
+                            <featuresDirectory>src/test/resources</featuresDirectory>
+                            <parallelScheme>SCENARIO</parallelScheme>
+
+                            <plugins>
+                                <plugin>
+                                    <name>json</name>
+                                </plugin>
+                                <plugin>
+                                    <name>html</name>
+                                </plugin>
+                            </plugins>
+                            &lt;!&ndash; CucumberOptions.strict property &ndash;&gt;
+                            <strict>true</strict>
+                            &lt;!&ndash; CucumberOptions.monochrome property &ndash;&gt;
+                            <monochrome>true</monochrome>
+                            <tags>
+                              <tag>@CreateBooking</tag>
+                              &lt;!&ndash;<tag>~@DeleteBooking</tag>&ndash;&gt;
+                            </tags>
+                            <useTestNG>true</useTestNG>
+
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
