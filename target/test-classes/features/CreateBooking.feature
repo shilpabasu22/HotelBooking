@@ -18,13 +18,13 @@ Scenario Outline: Create a new Hotel Booking
 
 Examples:
     |firstname |lastname|price  |deposit|checkin       |checkout       |
-#    |Test      |User    |100    |true   |2019-05-15    |2019-05-20     |
-#    |sb        |B       |-100   |false  |2019-05-15    |2019-05-20     |
-#    |354445    |345345  |15000  |true   |2019-06-19    |2019-06-28     |
-#    |£%%$$%    |$%^$%^$ |2000   |true   |2019-06-19    |2019-06-28     |
-#    |First name|Last name|0     |false  |2019-06-19    |2019-06-28     |
-    |Test1     |User1    |100.25|true   |2019-06-19    |2019-06-28     |
-    |Test2     |User2    |-100.25|true |2019-06-19     |2019-06-28     |
-#    |The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog |The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog |100|true|2019-06-19|2019-06-28|
+    |Test1      |User1    |100    |true   |2019-05-15    |2019-05-20     |
+    |sb        |B       |-100   |false  |2019-05-15    |2019-05-20     |
+    |354445    |345345  |15000  |true   |2019-06-19    |2019-06-28     |
+    |£%%$$%    |$%^$%^$ |2000   |true   |2019-06-19    |2019-06-28     |
+    |First name|Last name|0     |false  |2019-06-19    |2019-06-28     |
+    |Test2    |User2    |100.25|true   |2019-06-19    |2019-06-28     |
+    |Test3     |User3    |-100.25|true |2019-06-19     |2019-06-28     |
+    |The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog |The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog |100|true|2019-06-19|2019-06-28|
 
 

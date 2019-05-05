@@ -38,8 +38,6 @@ public class CreateBooking extends BasePage {
     public void iEnterMyLastnameAs(String lastname) {
         createHotelBooking.setLastName(lastname);
         createHotelBooking.infoLog("I enter my last name as "+lastname);
-
-
     }
 
     @And("^I enter the price as \\+?(-?\\d+\\.?\\d+)$")

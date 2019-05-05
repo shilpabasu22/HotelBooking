@@ -36,7 +36,6 @@ public static final String SAVE = "/html/body/div[1]/div[3]/div/div[7]/input";
         String totalPrice_Val = String.valueOf(totalPrice);
         softAssert.assertThat(driver.findElement(By.id(TOTALPRICE)));
         driver.findElement(By.id(TOTALPRICE)).sendKeys(totalPrice_Val);
-
     }
 
     public static void setDepositPaid(String depositPaid){

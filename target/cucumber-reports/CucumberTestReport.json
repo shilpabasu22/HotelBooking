@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 333276274,
+              "duration": 126458,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 738699,
+              "duration": 69912,
               "status": "passed"
             },
             "match": {
@@ -23,14 +23,14 @@
             }
           }
         ],
-        "line": 26,
-        "name": "Create a new Hotel Booking",
+        "line": 16,
+        "name": "Delete An Existing Hotel Booking",
         "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;create-a-new-hotel-booking;;2",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;2",
         "after": [
           {
             "result": {
-              "duration": 859403675,
+              "duration": 1303061100,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 360041104,
+              "duration": 28722869,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4090704123,
+              "duration": 3601614444,
               "status": "passed"
             },
             "line": 9,
@@ -64,146 +64,63 @@
           },
           {
             "result": {
-              "duration": 584099020,
+              "duration": 4179643492,
               "status": "passed"
             },
             "line": 10,
-            "name": "I enter my Firstname as Test1",
+            "name": "I see a booking for Test1",
             "match": {
               "arguments": [
                 {
                   "val": "Test1",
-                  "offset": 24
+                  "offset": 20
                 }
               ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 101975825,
+              "duration": 4212592415,
               "status": "passed"
             },
             "line": 11,
-            "name": "I enter my Lastname as User1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "User1",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 96815219,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as 100.25",
-            "match": {
-              "arguments": [
-                {
-                  "val": "100.25",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(float)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 76548054,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the true paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "true",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 225758412,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-06-19",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-19",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 143421576,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-06-28",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-28",
-                  "offset": 29
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 65669090,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I click on the save button",
-            "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4066075194,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for Test1",
+            "name": "I click on delete button for Test1",
             "match": {
               "arguments": [
                 {
                   "val": "Test1",
-                  "offset": 38
+                  "offset": 29
                 }
               ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test1(classpath:features/DeleteBooking.feature:12)\r\n",
+              "duration": 4126938376,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The booking is deleted for Test1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test1",
+                  "offset": 27
+                }
+              ],
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@CreateBooking"
+            "name": "@DeleteBooking"
           }
         ]
       },
@@ -211,7 +128,7 @@
         "before": [
           {
             "result": {
-              "duration": 168096,
+              "duration": 134683,
               "status": "passed"
             },
             "match": {
@@ -220,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 103839,
+              "duration": 57060,
               "status": "passed"
             },
             "match": {
@@ -228,14 +145,14 @@
             }
           }
         ],
-        "line": 27,
-        "name": "Create a new Hotel Booking",
+        "line": 17,
+        "name": "Delete An Existing Hotel Booking",
         "description": "",
-        "id": "create-the-hotel-booking-for-a-specific-time-period;create-a-new-hotel-booking;;3",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;3",
         "after": [
           {
             "result": {
-              "duration": 665821559,
+              "duration": 1403158564,
               "status": "passed"
             },
             "match": {
@@ -244,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 193505522,
+              "duration": 22912497,
               "status": "passed"
             },
             "match": {
@@ -257,7 +174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3476406380,
+              "duration": 3525117796,
               "status": "passed"
             },
             "line": 9,
@@ -269,158 +186,807 @@
           },
           {
             "result": {
-              "duration": 128585925,
+              "duration": 4193521972,
               "status": "passed"
             },
             "line": 10,
-            "name": "I enter my Firstname as Test2",
+            "name": "I see a booking for sb",
             "match": {
               "arguments": [
                 {
-                  "val": "Test2",
-                  "offset": 24
+                  "val": "sb",
+                  "offset": 20
                 }
               ],
-              "location": "CreateBooking.iEnterMyFirstnameAs(String)"
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 73207205,
+              "duration": 4172595272,
               "status": "passed"
             },
             "line": 11,
-            "name": "I enter my Lastname as User2",
+            "name": "I click on delete button for sb",
             "match": {
               "arguments": [
                 {
-                  "val": "User2",
-                  "offset": 23
-                }
-              ],
-              "location": "CreateBooking.iEnterMyLastnameAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 78580630,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "I enter the price as -100.25",
-            "match": {
-              "arguments": [
-                {
-                  "val": "-100.25",
-                  "offset": 21
-                }
-              ],
-              "location": "CreateBooking.iEnterThePriceAs(float)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 56651522,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "I enter the true paid",
-            "match": {
-              "arguments": [
-                {
-                  "val": "true",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateBooking.iEnterThe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 178747492,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "I enter the Checkin date as 2019-06-19",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-19",
-                  "offset": 28
-                }
-              ],
-              "location": "CreateBooking.iEnterTheCheckinDateAs(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 122900467,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "I enter the Checkout date as 2019-06-28",
-            "match": {
-              "arguments": [
-                {
-                  "val": "2019-06-28",
+                  "val": "sb",
                   "offset": 29
                 }
               ],
-              "location": "CreateBooking.iEnterTheCheckoutDateAs(String)"
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 61760210,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for sb(classpath:features/DeleteBooking.feature:12)\r\n",
+              "duration": 4088774357,
+              "status": "failed"
             },
-            "line": 16,
-            "name": "I click on the save button",
-            "match": {
-              "location": "CreateBooking.iClickOnTheSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4099600373,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The booking is saved successfully for Test2",
+            "line": 12,
+            "name": "The booking is deleted for sb",
             "match": {
               "arguments": [
                 {
-                  "val": "Test2",
-                  "offset": 38
+                  "val": "sb",
+                  "offset": 27
                 }
               ],
-              "location": "CreateBooking.theBookingIsSavedSuccessfullyFor(String)"
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@CreateBooking"
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 118233,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 51920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Delete An Existing Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1388682239,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 21717317,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3616233678,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4164685496,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for 354445",
+            "match": {
+              "arguments": [
+                {
+                  "val": "354445",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4178276617,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for 354445",
+            "match": {
+              "arguments": [
+                {
+                  "val": "354445",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for 354445(classpath:features/DeleteBooking.feature:12)\r\n",
+              "duration": 4077036920,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The booking is deleted for 354445",
+            "match": {
+              "arguments": [
+                {
+                  "val": "354445",
+                  "offset": 27
+                }
+              ],
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 80707,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 28787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Delete An Existing Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1509572748,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 20929783,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3453941626,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4156081229,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for £%%$$%",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£%%$$%",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4195939062,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for £%%$$%",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£%%$$%",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for £%%$$%(classpath:features/DeleteBooking.feature:12)\r\n",
+              "duration": 4110086084,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The booking is deleted for £%%$$%",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£%%$$%",
+                  "offset": 27
+                }
+              ],
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 73510,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 30330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Delete An Existing Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 638527251,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32993646,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3919188368,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.iSeeABookingForFirstname(DeleteBooking.java:25)\r\n\tat ✽.I see a booking for First name(classpath:features/DeleteBooking.feature:10)\r\n",
+              "duration": 4115305806,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I see a booking for First name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1542,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on delete button for First name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The booking is deleted for First name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name",
+                  "offset": 27
+                }
+              ],
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 115663,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 69397,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Delete An Existing Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1569756348,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 23787933,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3512567123,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4109578197,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for Test2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test2",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4146182056,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for Test2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test2",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test2(classpath:features/DeleteBooking.feature:12)\r\n",
+              "duration": 4056424824,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The booking is deleted for Test2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test2",
+                  "offset": 27
+                }
+              ],
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 81734,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 27245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Delete An Existing Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 1606613637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 24625330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3510144378,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4112563833,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for Test3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test3",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4148069669,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for Test3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test3",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for Test3(classpath:features/DeleteBooking.feature:12)\r\n",
+              "duration": 4051266274,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The booking is deleted for Test3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test3",
+                  "offset": 27
+                }
+              ],
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 450827,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.beforeScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 345960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Delete An Existing Hotel Booking",
+        "description": "",
+        "id": "delete-the-hotel-booking-for-a-customer;delete-an-existing-hotel-booking;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 673646003,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateBooking.closeBrowserAfterExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 34635025,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteBooking.closeBrowserAfterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3468651334,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Hotel Booking home page",
+            "match": {
+              "location": "CreateBooking.iAmOnTheHotelBookingHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4077171603,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see a booking for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+                  "offset": 20
+                }
+              ],
+              "location": "DeleteBooking.iSeeABookingForFirstname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4118178351,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on delete button for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+                  "offset": 29
+                }
+              ],
+              "location": "DeleteBooking.iClickOnDeleteButtonFor(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat steps.browser.DeleteBooking.theBookingIsDeleted(DeleteBooking.java:42)\r\n\tat ✽.The booking is deleted for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog(classpath:features/DeleteBooking.feature:12)\r\n",
+              "duration": 4042952449,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "The booking is deleted for The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog",
+                  "offset": 27
+                }
+              ],
+              "location": "DeleteBooking.theBookingIsDeleted(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteBooking"
           }
         ]
       }
     ],
-    "name": "Create the Hotel Booking For a specific time period",
-    "description": "As a customer I want to create a hotel booking for the holiday",
-    "id": "create-the-hotel-booking-for-a-specific-time-period",
+    "name": "Delete the Hotel Booking For a customer",
+    "description": "  As a customer I want to Delete a hotel booking",
+    "id": "delete-the-hotel-booking-for-a-customer",
     "keyword": "Feature",
-    "uri": "classpath:features/CreateBooking.feature",
+    "uri": "classpath:features/DeleteBooking.feature",
     "tags": [
       {
-        "name": "@CreateBooking",
+        "name": "@DeleteBooking",
         "type": "Tag",
         "location": {
           "line": 1,
