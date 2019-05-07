@@ -17,7 +17,6 @@ Feature: Delete the Hotel Booking For a customer
       |sb        |
       |354445    |
       |£%%$$%    |
-      |First name|
       |Test2     |
       |Test3    |
       |The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog |
