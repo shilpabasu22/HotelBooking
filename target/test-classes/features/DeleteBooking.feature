@@ -13,12 +13,11 @@ Feature: Delete the Hotel Booking For a customer
 
     Examples:
       |firstname |
-#      |Test1      |
-#      |sb        |
-#      |354445    |
-#      |£%%$$%    |
-      |Test name|
-#      |Test2     |
-#      |Test3    |
-#      |The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog |
+      |Test1      |
+      |sb        |
+      |354445    |
+      |£%%$$%    |
+      |Test2     |
+      |Test3    |
+      |The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog The quick brown fox jumped over the lazy dog |
 

@@ -6,17 +6,10 @@
       <class name="runners.DeleteBooking">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="runScenario" invocation-numbers="0 2 4 5 6"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- runners.DeleteBooking -->
-      <class name="runners.CreateBooking">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 1 3"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- runners.CreateBooking -->
     </classes>
   </test> <!-- Hotel Booking(failed) -->
 </suite> <!-- Failed suite [BDD Test Suite] -->

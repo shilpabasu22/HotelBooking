@@ -65,7 +65,7 @@ public static final String SAVE = "/html/body/div[1]/div[3]/div/div[7]/input";
     public static boolean checkRecordExists(String firstname) {
         List<WebElement> rows=null;
         try {
-            Thread.sleep(4000);
+            Thread.sleep(4500);
 
          //   wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("/html/body/div[1]/div[3]/div/div[7]/input"))));
 

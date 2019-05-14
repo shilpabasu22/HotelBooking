@@ -117,13 +117,6 @@
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
-                <!--<configuration>
-                    <forkCount>6</forkCount>
-                    <reuseForks>true</reuseForks>
-                    <includes>
-                        <include>**/*IT.class</include>
-                    </includes>
-                </configuration>-->
             </plugin>
            <!-- <plugin>
                 <groupId>com.github.temyers</groupId>
@@ -172,7 +165,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven.compiler.plugin.version}</version>
                 <configuration>
-                    <release>${java.version}</release>
+                    <release>11</release>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>

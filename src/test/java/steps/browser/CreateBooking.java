@@ -10,7 +10,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.assertj.core.api.SoftAssertions;
 import org.testng.Assert;
-import org.testng.asserts.SoftAssert;
 import pageobjects.BasePage;
 import pageobjects.CreateHotelBooking;
 
@@ -21,7 +20,7 @@ public class CreateBooking extends BasePage {
 
     @Given("^I am on the Hotel Booking home page$")
     public void iAmOnTheHotelBookingHomePage(){
-        driver = initializeChromeDriver();
+        driver = initializeDriver();
         driver.get("http://hotel-test.equalexperts.io/");
         createHotelBooking.infoLog("I am on the Hotel Booking home page");
     }

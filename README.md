@@ -1,5 +1,8 @@
 # Hotel Booking Test cases for Equal Experts
 
+## Project Compilation and Build
+The Project has been compiled with Java 11 in IntelliJ. Chrome version used for testing is 72.0.3626.81
+
 #Chromedriver.exe
 Chromedriver.exe is provided at location Binary/chromedriver.exe . This file is referred by BasePageHelper class for execution
 
